@@ -31,7 +31,7 @@ body{
     background-color: #FDFDFD;
     box-shadow: 2px 8px 20px -1px rgba(0, 0, 0, 0.3);
     &__temp{
-        min-height: 10vh;
+        min-height: 74px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -46,7 +46,7 @@ body{
         }
     }
     &__extra{
-        min-height: 10vh;
+        min-height: 74px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
