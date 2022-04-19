@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: #F0F0F0;
+}
+
+.infoCard {
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5% auto;
+}
+
+#city {
+  font-size: 24px;
+  font-weight: bold;
+  color: #414B5A;
+}
+
+.info {
+  border: 1px solid black;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 90%;
+  padding: 5%;
+  margin: 5%;
+  background-color: #FDFDFD;
+  -webkit-box-shadow: 2px 8px 20px -1px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 8px 20px -1px rgba(0, 0, 0, 0.3);
+}
+
+.info__temp {
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info__temp > p {
+  color: #808080;
+}
+
+.info__temp > #temp {
+  font-size: 24px;
+  font-weight: bold;
+  color: #414B5A;
+}
+
+.info__extra {
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-width: 20%;
+}
+
+.info__extra > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 300;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+/*# sourceMappingURL=index.css.map */
