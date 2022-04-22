@@ -3,8 +3,11 @@ import { createStore } from "redux"
 const defaultState = {
     city: "",
     temp: "",
+    weatherType: "",
     humidity: '',
     wind: '',
+    precipitation: "",
+    icon: '',
 }
 
 const reduser = (state = defaultState, action) => {
@@ -13,8 +16,11 @@ const reduser = (state = defaultState, action) => {
             return {...state, 
                 city: action.payload.city, 
                 temp: action.payload.temp,
+                weatherType: action.payload.weatherType,
                 humidity: action.payload.humidity,
-                wind: action.payload.wind
+                wind: action.payload.wind,
+                precipitation: action.payload.precipitation,
+                icon: action.payload.icon,
             }
         default:
             return state
