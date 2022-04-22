@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/weather_app/static/css/main.361c0b59.css",
-    "main.js": "/weather_app/static/js/main.c8fa0ef6.js",
-    "static/media/wind.png": "/weather_app/static/media/wind.649ede7c55772c871929.png",
-    "static/media/humidity.png": "/weather_app/static/media/humidity.860baa72a4d0e3323dcb.png",
+    "main.css": "/weather_app/static/css/main.0816c3ed.css",
+    "main.js": "/weather_app/static/js/main.ec985eea.js",
+    "static/media/humidity.png": "/weather_app/static/media/humidity.de8a32c7d6d44bb3238e.png",
+    "static/media/sun.png": "/weather_app/static/media/sun.e015784cf4e908c1d601.png",
+    "static/media/wind.png": "/weather_app/static/media/wind.e7ec6256949ce0438735.png",
+    "static/media/snow.png": "/weather_app/static/media/snow.59c2b8d75f6a9463c0e0.png",
+    "static/media/thunderstorm.png": "/weather_app/static/media/thunderstorm.3d7f5059f901125982a1.png",
+    "static/media/fog.png": "/weather_app/static/media/fog.03f6cef52e2bd7019034.png",
+    "static/media/overcast.png": "/weather_app/static/media/overcast.0d9f11c9e69ab2d845dc.png",
+    "static/media/rain.png": "/weather_app/static/media/rain.6fde33f66819ce7f21ab.png",
     "index.html": "/weather_app/index.html",
-    "main.361c0b59.css.map": "/weather_app/static/css/main.361c0b59.css.map",
-    "main.c8fa0ef6.js.map": "/weather_app/static/js/main.c8fa0ef6.js.map"
+    "main.0816c3ed.css.map": "/weather_app/static/css/main.0816c3ed.css.map",
+    "main.ec985eea.js.map": "/weather_app/static/js/main.ec985eea.js.map"
   },
   "entrypoints": [
-    "static/css/main.361c0b59.css",
-    "static/js/main.c8fa0ef6.js"
+    "static/css/main.0816c3ed.css",
+    "static/js/main.ec985eea.js"
   ]
 }
